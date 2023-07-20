@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    
+    
+    
+    
+    
+    
+    <script>
+        let numeroTiri = 3;
+        
+        let totPlayer1 = 0;
+        
+        let totPlayer2 = 0;
+        
+        function giocoDeiDadi (tiri) {  
+
+            for (i= 1; i <= tiri; i++){
+                
+                totPlayer1 = totPlayer1 + Math.floor(Math.random() * (6 - 1 + 1) + 1);
+                
+                totPlayer2 = totPlayer2 + Math.floor(Math.random() * (6 - 1 + 1) + 1);
+            }
+            
+            if (totPlayer1 > totPlayer2){
+
+                return `Il Giocatore 1 ha vinto sul giocatore 2 di ${totPlayer1} punti.`
+
+            } else if (totPlayer2 > totPlayer1){
+
+                return `Il giocatore 2 ha vinto sul giocatore 1 di ${totPlayer2}`
+
+            } else {
+
+                return  'Avete fatto lo stesso punteggio'
+            }
+            
+
+                
+        }
+
+        console.log(giocoDeiDadi(numeroTiri))
+        console.log(giocoDeiDadi(3))
+        console.log(giocoDeiDadi(6))
+
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </script>
+    </body>
+    </html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+
+
+
+
+
+
+    <script>
+//     Scrivi un programma che dati:
+//   - 2 array di 10 elementi interi casuali compresi tra 1 e 10,
+//   - il tipo di operazione aritmetica da effettuare, una delle seguenti:
+//     addizione
+//     sottrazione
+//     moltiplicazione
+//     divisione
+//    Esegua il calcolo tra ogni elemento dei due array, salvando ciascun risultato in un terzo array d’appoggio.
+//   Esempio:
+//     Input: a= [3, 7, 2, 5, 8, 1, 2, 5, 6, 4], b= [9, 3, 1, 4, 7, 6, 5, 10, 1, 5], operazione = "addizione"
+//     Output: c = [12, 10, 3, 9, 15, 7, 7, 15, 7, 9]
+
+        let primoArray = [];
+        let secondoArray = [];
+
+
+
+        function randomArray (){
+            for (i=0; i <= 9; i++) {
+
+            primoArray.push(parseInt(Math.floor(Math.random() * (10 - 1 + 1) + 1)));
+            secondoArray.push(parseInt(Math.floor(Math.random() * (10 - 1 + 1) + 1)));
+            }
+
+            terzoArray = primoArray.map ((element, index) => element + secondoArray[index])
+        }
+        randomArray();
+
+        console.log(primoArray);
+        console.log(secondoArray);
+        console.log(terzoArray);
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

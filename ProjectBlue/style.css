@@ -1,0 +1,117 @@
+.sfondohd{
+    background-image: linear-gradient(rgba(0,0,0, 0.99) , transparent), url(./media/header.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ 
+.bg_2{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+
+.bg_3{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+
+.styletxt{
+    font-family: 'Righteous', cursive;
+}
+
+.styledesc{
+    font-family: 'Roboto' sans-serif;
+    font-weight: bolder;
+}
+
+.card1{
+    background-image: linear-gradient(rgba(0,0,0, 0.99) , transparent), url(./media/1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+}
+
+.card2{
+    background-image: linear-gradient(rgba(0,0,0, 0.99) , transparent), url(./media/2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+}
+
+.card3{
+    background-image: linear-gradient(rgba(0,0,0, 0.99) , transparent), url(./media/3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+}
+
+.card4{
+    background-image: linear-gradient(rgba(0,0,0, 0.99) , transparent), url(./media/4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    width: 300px; 
+}
+.bordo-title{
+    border-bottom: 4px solid gold;
+}
+
+.txtc{
+    font-family: 'Righteous' cursive;
+}
+
+.desctxt{
+    font-family: 'Roboto' sans-serif;
+}
+
+.imgcerchio{
+    border-radius: 50%;
+    border: 4px solid #1566C0;
+    width: 250px;
+    height: 250px;
+}
+
+.timeline{
+    border-left: 4px solid #1566C0;
+    height: 100%;
+}
+
+.cerchio{
+    height: 20px;
+    width: 20px;
+    border: 4px solid #1566C0;
+    border-radius: 50%;
+}
+
+.sfondofootbg{
+    background:linear-gradient(rgb(255, 255, 255), rgba(0, 0, 0, 0.8)), url(./media/footer.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.info{
+    position: absolute;
+    bottom: 0;
+}
+
+.footTitle{
+    font-family: 'Righteous', cursive;
+    color: gold;
+}
+
+.footDesc{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.footprova{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,77 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.primacol {
+    background-color: #6E9277;
+}
+
+.imgprofile{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    width: 200px;
+    height: 240px;
+    border-radius: 20%;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.infotxt{
+    text-align: center;
+    margin-top: 16px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 120px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.desc {
+    text-align: justify;
+    padding: 10px;
+    font-style: italic;
+}
+
+ul {
+    list-style-type: square;
+    margin-bottom: 35px;
+}
+
+/* container n°2 */
+
+.cont_2 {
+    background-color: #ECF0F1;
+}
+
+.title {
+    color: #6E9277;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    top: 150px;
+    padding: 50px;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    letter-spacing: 2px;
+}
+
+h4{text-align: justify;}

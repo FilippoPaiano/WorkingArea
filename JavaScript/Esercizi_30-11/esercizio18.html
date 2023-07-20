@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Realizzare un oggetto che rappresenti un garage, dovrà contenere una lista di automobili. Ciascuna automobile dovra’ avere una marca (es. Fiat) ed una lista di modelli (es. Punto).  
+        // Scrivere un metodo che prenda in input una marca e stampi i modelli presenti nel garage di quella stessa marca.
+
+
+        let garage = 
+        {
+            automobili : [
+                {
+                    marca: "Fiat",
+
+                    modello: "Panda",
+                },
+
+                {
+                    marca: "Fiat",
+
+                    modello: "Punto",
+                },
+
+                {
+                    marca: "AlfaRomeo",
+
+                    modello: "Giulia",
+                },
+
+                {
+                    marca: "AlfaRomeo",
+
+                    modello:"MTO",
+                },
+
+                {
+                    marca: "BMW",
+
+                    modello: "Serie1",
+                },
+
+                {
+                    marca: "BMW",
+
+                    modello: "Serie2",
+                },
+
+                {
+                    marca: "BMW",
+
+                    modello: "Serie3",
+                },
+            ],
+                carModels : function (brand) {
+                let filtered = this.automobili.filter((element) => element.marca == brand)
+
+                console.log(filtered)
+            }
+        }
+
+
+
+        garage.carModels("BMW")
+
+
+
+    </script>
+</body>
+</html>

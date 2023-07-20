@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+
+
+
+    <script>
+        let v = prompt('Inserisci il voto per sapere la valutazione')
+        if(v < 18){
+            console.log(`Mi dispiace ma ${v} non è sufficente`)
+        } else if ( v >= 18 && v<21) {
+            console.log(`Va bene così, ${v} è sufficente ma impegnati di più`)
+        } else if ( v >= 21 && v<24) {
+            console.log(`Hai preso un bel ${v}, equivale a un buono`)
+        } else if ( v >=24 && v<27) {
+            console.log(`Hai preso ${v} che equivale a un bel distinto`)
+        } else if ( v >=27 && v<=29) {
+            console.log(`Bravissimo/a hai preso ${v}, è un ottimo`)
+        } else if (v == 30) {
+            console.log(`Non c'è niente da dire, hai preso ${v}, il massimo, l'eccellenza`)
+        } else {
+            console.log ("Hai inserito un voto non valido")
+        }
+
+
+
+
+
+
+    </script>
+</body>
+</html>
